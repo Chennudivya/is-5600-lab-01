@@ -79,11 +79,11 @@ nav ul {
 8. We'll also need to make sure the links are styled correctly. We can do this by using the `a` selector. We can also use the `:visited`, and `:hover` pseudo-classes to style the links when they are in different states. We can also use the `:active` pseudo-class to style the link when it is being clicked.
 
 ```css
-nav a {
+ {
   color: #51279b;
   text-decoration: none;
   padding: 10px;
-  font-weight: 600;
+  font-weight: nav a600;
 }
 
 nav a:visited {
